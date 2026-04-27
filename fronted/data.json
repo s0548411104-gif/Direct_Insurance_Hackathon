@@ -1,0 +1,67 @@
+{
+  "session_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+  "timestamp": "2026-04-13T19:40:00Z",
+  "customer_details": {
+    "first_name": "אבי",
+    "last_name": "כהן",
+    "id_number": "217689754",
+    "phone_number": "050-1234567",
+    "email": "avi.cohen@gmail.com",
+    "date_of_birth": "1985-05-15"
+  },
+  "property_details": {
+    "city": "תל אביב",
+    "street": "סוקולוב",
+    "house_number": 7,
+    "apartment_number": 1,
+    "floor": 1,
+    "total_floors": 2,
+    "property_type": "וילה",
+    "ownership_status": "owner",
+    "year_built": 2000
+  },
+  "property_characteristics": {
+    "area_sqm": 120,
+    "rooms": 2,
+    "bathrooms": 2,
+    "has_balcony": true,
+    "balcony_area_sqm": 14.0,
+    "has_storage_room": false,
+    "has_parking": false,
+    "declared_finish_level": "standard"
+  },
+  "security_and_safety": {
+    "main_door_type": "security_door",
+    "has_window_bars": true,
+    "has_alarm_system": false,
+    "has_safe": false,
+    "has_smoke_detectors": false
+  },
+  "requested_coverage": {
+    "structure_insurance": true,
+    "contents_insurance": false,
+    "contents_estimated_value": 150000,
+    "include_earthquake": false,
+    "include_water_damage": false,
+    "third_party_liability_limit": 1000000
+  },
+  "underwriting_questions": {
+    "claims_last_3_years": 0,
+    "property_used_for_business": true,
+    "is_unoccupied_frequently": false
+  },
+  "pricing_result": {
+    "quote_id": "Q-987654321",
+    "status": "approved",
+    "base_annual_premium": 1850.00,
+    "discounts_applied": {
+      "no_claims_discount": 100.00,
+      "online_purchase_discount": 50.00
+    },
+    "final_annual_premium": 1700.00,
+    "final_monthly_premium": 141.66,
+    "currency": "ILS",
+    "valid_until": "2026-05-13T23:59:59Z"
+  }
+}
+

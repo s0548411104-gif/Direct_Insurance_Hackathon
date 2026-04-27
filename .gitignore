@@ -1,0 +1,21 @@
+# התעלמות מהתיקיות הכבדות של שניהם
+fronted/node_modules/
+server/node_modules/
+
+# התעלמות מהתמונות הזמניות בשרת
+server/uploads/*
+!server/uploads/.gitkeep
+
+# התעלמות מסודות וסביבות
+fronted/.env
+fronted/.env.local
+server/.env
+.env
+
+# קבצי בנייה וזבל
+fronted/dist/
+fronted/build/
+.DS_Store
+
+.env
+.streamlit/
