@@ -58,3 +58,10 @@ DirectVision היא מערכת חיתום חכמה מקצה לקצה (End-to-End
      cd ai
      py -m pip install -r requirements.txt
      py api_server.py
+
+
+---
+<div align="center">
+  <b>פותח באהבה ובגאווה במסגרת האקתון עבור חברת "ביטוח ישיר" 🚀</b><br>
+  <i>הופכים את עולם הביטוח לדיגיטלי, חכם ומהיר יותר.</i>
+</div>     
