@@ -41,13 +41,11 @@ DirectVision היא מערכת חיתום חכמה מקצה לקצה (End-to-End
     GEMINI_API_KEY=your_google_key_here
     CLAUDE_API_KEY=your_anthropic_key_here
 
-
 2. הפעלת שרת ה-Backend (Node.js)
     ```bash
     cd server
     npm install
     node server.js
-
 
 3. הפעלת צד הלקוח (React)
      ```bash
