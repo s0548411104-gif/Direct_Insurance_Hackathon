@@ -34,9 +34,29 @@ DirectVision היא מערכת חיתום חכמה מקצה לקצה (End-to-End
 
 הפרויקט דורש 3 טרמינלים במקביל (עבור כל שירות). יש לוודא שמותקנים במחשב `Node.js` ו-`Python`.
 
-### 1. הגדרת משתני סביבה (.env)
+1. הגדרת משתני סביבה (.env)
 יש ליצור קובץ `.env` בתיקיית ה-`server` ובו מפתחות ל-MongoDB ו-Cloudinary.
 יש ליצור קובץ `.env` בתיקיית ה-`ai` ולהזין את מפתחות ה-API:
-```env
-GEMINI_API_KEY=your_google_key_here
-CLAUDE_API_KEY=your_anthropic_key_here
+    ```bash
+    GEMINI_API_KEY=your_google_key_here
+    CLAUDE_API_KEY=your_anthropic_key_here
+
+
+2. הפעלת שרת ה-Backend (Node.js)
+    ```bash
+    cd server
+    npm install
+    node server.js
+
+
+3. הפעלת צד הלקוח (React)
+     ```bash
+     cd fronted
+     npm install
+     npm run dev
+
+4. הפעלת שרת ה-AI (Python)
+     ```bash
+     cd ai
+     py -m pip install -r requirements.txt
+     py api_server.py
